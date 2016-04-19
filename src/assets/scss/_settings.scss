@@ -45,6 +45,12 @@
 // 1. Global
 // ---------
 
+// red    A30000
+// white  FFFFFF
+// cyan   9B8E5A
+// grey   1A1A1A
+// black  000000
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -124,7 +130,7 @@ $header-sizes: (
     'h6': 16,
   ),
 );
-$header-color: inherit;
+$header-color: #9B8E5A; //inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
@@ -133,6 +139,7 @@ $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
+$paragraph-color: #1A1A1A;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
 $code-font-weight: $global-weight-normal;
@@ -260,13 +267,13 @@ $buttongroup-expand-max: 6;
 // 13. Callout
 // -----------
 
-$callout-background: $white;
-$callout-background-fade: 85%;
+$callout-background: #1A1A1A; //$white;
+$callout-background-fade: 0%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
 $callout-padding: 1rem;
-$callout-font-color: $body-font-color;
-$callout-font-color-alt: $body-background;
+$callout-font-color: #9B8E5A; //$body-font-color;
+$callout-font-color-alt: #FFFFFF; //$body-background;
 $callout-radius: $global-radius;
 $callout-link-tint: 30%;
 
